@@ -16,7 +16,7 @@ variable "private_subnets" {
 
 }
 
-variable "instance_types" {
+variable "instance_type" {
   description = "ec2 instance type"
   type        = string
 
